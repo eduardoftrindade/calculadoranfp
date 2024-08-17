@@ -1,49 +1,44 @@
 <!DOCTYPE html>
+<html lang="pt-BR">
 
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Se você estuda na UVA, fazer o cálculo da sua Nota Final Ponderada nunca foi tão fácil."
-    />
-    <title>Calculadora de NFP</title>
-    <link rel="stylesheet" href="./style.css" media="screen" />
-    <!-- <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" /> -->
-  </head>
-  <body>
-    <header>
-      <!-- <img src="img/logo.png" alt="LOGO UVA" /> -->
-      <h1>Calculadora de Nota Final Ponderada</h1>
-    </header>
-    <main>
-      <form>
-        <div class="field">
-          <label for="a1">Primeira Nota [referente a A1]</label>
-          <input required type="number" name="a1" id="a1" min="0" max="100" />
-        </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+            content="Se você estuda na UVA, fazer o cálculo da sua Nota Final Ponderada nunca foi tão fácil.">
+        <title>Calculadora de NFP</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
 
-        <div class="field">
-          <label for="a2">Segunda Nota [referente a A2 ou A3]</label>
-          <input required type="number" name="a2" id="a2" min="0" max="100" />
-        </div>
+    <body>
+        <header><h1>Calculadora de Nota Final Ponderada</h1></header>
 
-        <button
-          type="button"
-          name="calculate"
-          id="calculate"
-          onclick="nfp.value=calc()"
-        >
-          Calcular
-        </button>
+        <section id="content">
+            <div class="sidebar" id="left"></div>
 
-        <output class="saida" for="a1 a2" name="nfp"> </output>
-      </form>
-    </main>
-    <footer>
-      <h4>Eduardo Trindadeㅤ|ㅤTodos os direitos reservadosㅤ|ㅤ2022</h4>
-    </footer>
-    <script src="./script.js"></script>
-  </body>
+            <main>
+                <form>
+                    <p id="alert">&#8505; Utilize notas entre 0 e 100!</p>
+
+                    <label for="a1" id="label-a1">Primeira Nota [referente a A1]</label>
+                    <input required type="number" name="a1" id="a1" min="0" max="100">
+
+                    <label for="a2" id="label-a2">Segunda Nota [referente a A2 ou A3]</label>
+                    <input required type="number" name="a2" id="a2" min="0" max="100">
+
+                    <button type="button" name="calculate" id="calculate" onclick="displayResult()">Calcular</button>
+
+                    
+                </form>
+
+                <output id="result" for="a1 a2"> </output>
+            </main>
+
+            <div class="sidebar" id="right"></div>
+        </section>
+
+        <footer><h3><a href="https://www.linkedin.com/in/eduardoft/">Eduardo Trindade</a> | 2024</h3></footer>
+
+        <script src="script.js"></script>
+    </body>
 </html>
