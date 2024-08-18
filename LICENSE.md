@@ -11,13 +11,13 @@ Este software é protegido por direitos autorais e é de propriedade de Eduardo 
 
 Eduardo Ferreira Trindade reserva todos os direitos não concedidos expressamente sob esta licença. Para obter permissão para qualquer um dos usos acima mencionados ou para qualquer outro uso não autorizado, entre em contato conosco em eduardoftrindade@yahoo.com.
 
-**Negociações de Licenciamento Personalizado:**
+- **Negociações de Licenciamento Personalizado:**
 
 Estamos abertos a discutir licenças personalizadas ou permissões especiais para uso deste software. Se você tiver necessidades específicas ou desejar obter uma licença para uso comercial, entre em contato conosco em eduardoftrindade@yahoo.com para iniciar uma conversa.
 
 Esta licença está sujeita às leis de direitos autorais em vigor. Qualquer uso não autorizado deste software pode resultar em responsabilidade civil e criminal nos termos das leis aplicáveis.
 
--
+---
 
 ## Restrictive Software License
 
@@ -31,12 +31,12 @@ This software is protected by copyright and is the property of Eduardo Ferreira 
 
 Eduardo Ferreira Trindade reserves all rights not expressly granted under this license. For permission for any of the aforementioned uses or any other unauthorized use, please contact us at eduardoftrindade@yahoo.com.
 
-**Custom Licensing Negotiations:**
+- **Custom Licensing Negotiations:**
 
 We are open to discussing custom licenses or special permissions for the use of this software. If you have specific requirements or wish to obtain a license for commercial use, please contact us at eduardoftrindade@yahoo.com to initiate a conversation.
 
 This license is subject to the prevailing copyright laws. Any unauthorized use of this software may result in civil and criminal liability under applicable laws.
 
--
+---
 
-***Eduardo Ferreira Trindade, 17/08/2024***
+***Eduardo Trindade, 17/08/2024***
