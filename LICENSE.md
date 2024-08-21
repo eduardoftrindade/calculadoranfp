@@ -1,5 +1,6 @@
 ## Licença de Software Restritiva
 
+[English version below]
 
 Este software é protegido por direitos autorais e é de propriedade de Eduardo Ferreira Trindade. A menos que você tenha obtido expressamente a permissão por escrito de Eduardo Ferreira Trindade, você não tem permissão para:
 

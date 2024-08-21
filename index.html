@@ -7,14 +7,13 @@
         <meta name="description"
             content="Se você estuda na UVA, fazer o cálculo da sua Nota Final Ponderada nunca foi tão fácil.">
         <title>Calculadora de NFP</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3336488854772578"
+            crossorigin="anonymous"></script>
     </head>
 
     <body>
         <header><h1>Calculadora de Nota Final Ponderada</h1></header>
-
-        <section id="content">
-            <div class="sidebar" id="left"></div>
 
             <main>
                 <form>
@@ -27,13 +26,9 @@
                     <input required type="number" name="a2" id="a2" min="0" max="100">
 
                     <button type="button" name="calculate" id="calculate" onclick="displayResult()">Calcular</button>
+                    <output id="result" for="a1 a2"> </output>
                 </form>
-
-                <output id="result" for="a1 a2"> </output>
             </main>
-
-            <div class="sidebar" id="right"></div>
-        </section>
 
         <footer>
             <h3>

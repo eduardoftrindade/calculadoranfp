@@ -37,3 +37,7 @@ The **NFP Calculator** is a simple tool that calculates a student's Final Weight
 
 ## Technologies Used
 - HTML, CSS, JavaScript
+
+---
+
+***Eduardo Trindade, 17/08/2024***
