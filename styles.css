@@ -125,6 +125,10 @@ article {
     text-align: justify;
 }
 
+#nfp-definition {
+    margin-top: 100px;
+}
+
 a:link, a:visited {
     color: white;
     text-decoration: none;
@@ -163,6 +167,14 @@ h3 {
         width: 125px;
     }
 
+    h2 {
+        font-size: larger;
+    }
+
+    article {
+        font-size: large;
+    }
+
     button {
         font-size: large;
         margin-bottom: 70px;
@@ -190,6 +202,14 @@ h3 {
 
     input {
         width: 150px;
+    }
+
+    h2 {
+        font-size: x-large;
+    }
+
+    article {
+        font-size: larger;
     }
 
     button {
